@@ -290,6 +290,7 @@
 				7D8F69321D9A57C300C68306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
