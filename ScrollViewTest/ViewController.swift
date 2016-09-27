@@ -41,7 +41,7 @@ class ViewController: NSViewController {
             self.viewOutlet.setViewSize(0.5)
             break
         case 1:
-            self.viewOutlet.setViewSize(1.5)
+            self.viewOutlet.setViewSize(1.0)
             break
         case 2:
             self.viewOutlet.setViewSize(2.0)
