@@ -22,6 +22,36 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBOutlet weak var popUpOutlet: NSPopUpButton!
+    @IBOutlet weak var viewOutlet: MyView!
+    
+    // ------------ NSPopUp -------------
+    
+    @IBAction func scaleAction(_ sender: AnyObject) {
+        
+        // possible:
+        //let popItem:NSPopUpButton = sender as! NSPopUpButton
+        //NSLog("scaleAction title=%@", popItem.title)
+        
+        NSLog("scaleAction title = %@",String(sender.title))
+        NSLog("scaleAction tag   = %d", Int(sender.selectedTag()))
+        
+        switch Int(sender.selectedTag()) {
+        case 0:
+            self.viewOutlet.setViewSize(0.5)
+            break
+        case 1:
+            self.viewOutlet.setViewSize(1.5)
+            break
+        case 2:
+            self.viewOutlet.setViewSize(2.0)
+            break
+        default:
+            self.viewOutlet.setViewSize(1.0)
+        }
+        
+    }
+
 
 }
 

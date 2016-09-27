@@ -10,6 +10,7 @@ import Cocoa
 
 
 let GRID_RADIUS:Int = 150
+let unitSize:NSSize  = NSMakeSize(1.0, 1.0)
 
 
 class MyView: NSView {
@@ -58,5 +59,20 @@ class MyView: NSView {
             }
         }
     }
-
+    func resetScaling()
+    {
+        self.scaleUnitSquare(to: self.convert(unitSize, from:nil))
+    }
+    /// setViewSize - sets the size of the view
+    /// - parameter value: size
+    ///
+    func setViewSize(_ value:Double)
+    {
+        NSLog("setViewSize = %f",value)
+        self.resetScaling()
+        
+        // First, match our scaling to the window's coordinate system
+        self.scaleUnitSquare (to: NSMakeSize(CGFloat(value), CGFloat(value)))
+        needsDisplay = true
+    }
 }
