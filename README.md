@@ -2,11 +2,11 @@
 demo Scrollview with Zoom in Swift3
 
 Zoom 0.5
-![Zoom05 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Zoom05.png)
+![Zoom05 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Zoom05.png)
 Zoom 1.0
-![Zoom10 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Zoom10.png)
+![Zoom10 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Zoom10.png)
 Zoom 2.0
-![Zoom20 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Zoom20.png)
+![Zoom20 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Zoom20.png)
 
 
 - drag a CustomView to the window and adjust it
@@ -16,11 +16,11 @@ Zoom 2.0
 - set the following:
 
 Set Width and Height of MyView
-![Bild1 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Bild1.png)
+![Bild1 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild1.png)
 ClipView
-![Bild2 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Bild2.png)
+![Bild2 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild2.png)
 Set Layout of the displayed View
-![Bild3 Image](https://github.com/frcocoatst/ScrollViewTest/blob/master/Bild3.png)
+![Bild3 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild3.png)
 
 
 
