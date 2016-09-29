@@ -21,6 +21,8 @@ ClipView
 ![Bild2 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild2.png)
 Set Layout of the displayed View
 ![Bild3 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild3.png)
+Set Constraints for the View
+![Bild4 Image](https://github.com/frcocoatst/ScrollViewTestZooming/blob/master/Bild4.png)
 
 
 
