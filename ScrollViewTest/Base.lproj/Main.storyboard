@@ -692,11 +692,18 @@
                                     <rect key="frame" x="1" y="1" width="440" height="215"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EW0-gS-Ubp" customClass="MyView" customModule="ScrollViewTest" customModuleProvider="target">
+                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="EW0-gS-Ubp" customClass="MyView" customModule="ScrollViewTest" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="3000" height="2000"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="2000" id="fEM-Tu-a4x"/>
+                                                <constraint firstAttribute="width" constant="3000" id="kHr-gr-E7v"/>
+                                            </constraints>
                                         </customView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="EW0-gS-Ubp" secondAttribute="bottom" id="CyR-PZ-4po"/>
+                                        <constraint firstItem="EW0-gS-Ubp" firstAttribute="leading" secondItem="fvd-jC-VsC" secondAttribute="leading" id="D3l-Gp-Ehe"/>
+                                    </constraints>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </clipView>
                                 <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="QAa-hL-BKN">
